@@ -8,6 +8,13 @@
     "dist"
   ],
   "compilerOptions": {
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "strict": true,
+    "strictNullChecks": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
   }
 }
